@@ -7,11 +7,11 @@ header {display: flex; justify-content: space-between;}
 
 #nav_list {list-style-type: none; margin: 0; padding: 0;}
 		
-#nav_list li {display: inline-block; background-color: black; width: auto; height: auto; text-align:center; font-size: x-large; color:white; padding: 20px; }
+#nav_list li {display: inline-block; background-color: black; width: auto; height: auto; text-align:center; font-size: x-large; color:white; padding-top: 20px; font-family: sans-serif;}
 
-#nav_list li:hover {border-bottom: medium solid #0080FF; cursor: pointer;}
+#nav_list li a {text-decoration: none; border:medium hidden black; padding: 20px;}
 
-#nav_list li a {text-decoration: none;}
+#nav_list li a:hover {border-bottom: medium solid #0080FF;}
 
 #nav_list li a:link, #nav_list li a:visited {color:white;}
 /*end of the header styling*/
