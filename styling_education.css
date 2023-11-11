@@ -25,12 +25,12 @@ footer {border-top:medium solid #0080FF; display: flex; justify-content: center;
 /*end of the footer styling*/
 
 /*start of "hs_grad" and "uos" sections styling*/
-#hs_grad, #uos{display: flex; justify-content: space-between; color:white; padding:20px;margin-top: 90px;}
+#hs_grad, #uos{background-color: #252525;display: flex; justify-content: space-between; color:white; padding:20px;margin-top: 90px;}
 #dmes_pic {position: relative; left:50px;}
-#heading_hs {border:medium dashed #FFA805; padding: 10px; width:330px;}
+#heading_hs {width:330px;}
 #hs_p {width:400px; line-height:40px;}
 
 #uos_pic {position: relative; right:115px;}
-#heading_uos {border:medium dashed #C52B00; padding: 10px; width:280px;}
+#heading_uos {width:280px;}
 #uos_p {width:500px; line-height: 40px;}
-/*start of "hs_grad" and "uos" sections styling*/
+/*end of "hs_grad" and "uos" sections styling*/

@@ -23,3 +23,8 @@ footer {border-top:medium solid #0080FF; display: flex; justify-content: center;
 .mySocials_list li {display: inline-block; width:auto; height:auto; margin-right:20px;}
 .mySocials_list li:hover {border:thin solid white;}
 /*end of the footer styling*/
+
+/*start of main content styling*/
+#coding,#gaming,#music,#movies,#reading {background-color: #252525;margin-top:100px;color: white; display: flex;justify-content: center;}	#coding_textual,#gaming_textual,#music_textual,#movies_textual,#reading_textual {margin-left: 30px;}
+#coding_textual p,#gaming_textual p,#music_textual p,#movies_textual p,#reading_textual p {width:400px; line-height: 40px ;}
+/*end of main content styling*/
