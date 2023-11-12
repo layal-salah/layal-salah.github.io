@@ -1,0 +1,30 @@
+/*Author: Layal Al-Abdali - U20200942 */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+html {background-image: url('Images/bg_web.jpg') ;  background-size:cover;}
+
+/*start of the header styling*/	
+header {display: flex; justify-content: space-between;}
+
+#nav_list {list-style-type: none; margin: 0; padding: 0;}
+		
+#nav_list li {display: inline-block; background-color: black; width: auto; height: auto; text-align:center; font-size: x-large; color:white; padding-top: 20px; font-family: sans-serif;}
+
+#nav_list li a {text-decoration: none; border:medium hidden black; padding: 20px;}
+
+#nav_list li a:hover {border-bottom: medium solid #0080FF;}
+
+#nav_list li a:link, #nav_list li a:visited {color:white;}
+/*end of the header styling*/
+
+/*start of the footer styling*/
+footer {border-top:medium solid #0080FF; display: flex; justify-content: center;}
+.mySocials {color: darkgray; font-family: "lucida sans unicode", "lucida grande", sans-serif; font-variant: small-caps;}
+.mySocials_list {list-style-type: none; margin: 0; padding: 0;}
+.mySocials_list li {display: inline-block; width:auto; height:auto; margin-right:20px;}
+.mySocials_list li:hover {border:thin solid white;}
+/*end of the footer styling*/
+
+/*start of main content styling*/
+#coding,#gaming,#music,#movies,#reading {background-color: #252525;margin-top:100px;color: white; display: flex;justify-content: center;}	#coding_textual,#gaming_textual,#music_textual,#movies_textual,#reading_textual {margin-left: 30px;}
+#coding_textual p,#gaming_textual p,#music_textual p,#movies_textual p,#reading_textual p {width:400px; line-height: 40px ;}
+/*end of main content styling*/
