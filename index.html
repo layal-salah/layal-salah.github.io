@@ -5,6 +5,10 @@
 <meta charset="utf-8">
 <title>Layal Al-Abdali</title>
 <link rel="stylesheet" type="text/css" href="styling_homepage.css">
+<style type="text/css">
+	#girl_img {transition: opacity 1s ease-in-out;}
+	#hello_txt {transition: opacity 1s ease-in-out; transition-delay: 0.5s;}
+</style>
 </head>
 <body>
 	<header>
@@ -18,6 +22,22 @@
 	<div id="hello_div">
 		<h1 id="hello_txt">&lt; Hello,<br>my name<br>is Layal &#33; &nbsp; &frasl; &nbsp;&gt;</h1>
 		<img id="girl_img" src="Images/girl.png" alt="girl" width="25%">
+		<!-- scripting starts here -->
+		<script>
+			var image = document.getElementById('girl_img');
+			var text = document.getElementById('hello_txt');
+			var opacity = 0; // Initial opacity
+			
+			function animate() {
+				opacity += 0.03; 
+				image.style.opacity = opacity;
+				text.style.opacity = opacity;
+				if (opacity < 1) {
+					requestAnimationFrame(animate);
+				}
+			}
+			animate();
+		</script>
 	</div>
 	<div id="welcome_div">
 		<h1 id="welcome">Welcome !</h1>
